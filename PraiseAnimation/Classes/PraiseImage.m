@@ -7,12 +7,7 @@
 
 #import "PraiseImage.h"
 
-@interface PraiseImage : UIImageView <CAAnimationDelegate>
-@property (nonatomic ,assign) CGFloat speed;
-@property (nonatomic ,assign) CGFloat animateH;
-@property (nonatomic ,assign) CGFloat minX;
-@property (nonatomic ,assign) CGFloat maxX;
-@end
+
 @implementation PraiseImage
 -(instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
