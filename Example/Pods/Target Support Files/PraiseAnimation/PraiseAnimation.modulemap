@@ -1,0 +1,6 @@
+framework module PraiseAnimation {
+  umbrella header "PraiseAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

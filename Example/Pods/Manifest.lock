@@ -1,0 +1,16 @@
+PODS:
+  - PraiseAnimation (0.1.0)
+
+DEPENDENCIES:
+  - PraiseAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  PraiseAnimation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PraiseAnimation: 6a5aab637206737b344355241fa27016e738b5b9
+
+PODFILE CHECKSUM: 4acbf76b9c669acdfabe12dd2b0f0483f158df70
+
+COCOAPODS: 1.10.0.rc.1

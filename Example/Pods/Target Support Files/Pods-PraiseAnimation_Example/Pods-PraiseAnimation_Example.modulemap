@@ -1,0 +1,6 @@
+framework module Pods_PraiseAnimation_Example {
+  umbrella header "Pods-PraiseAnimation_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
