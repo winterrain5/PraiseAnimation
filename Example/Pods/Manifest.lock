@@ -1,5 +1,5 @@
 PODS:
-  - PraiseAnimation (0.1.0)
+  - PraiseAnimation (0.3.0)
 
 DEPENDENCIES:
   - PraiseAnimation (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PraiseAnimation: 9df5eb30bd4b1fa5f46b7e8ecf7c2629b3bcf59e
+  PraiseAnimation: 8b08e98ce28aa29cc643072e8e503092192a8cb0
 
 PODFILE CHECKSUM: 4acbf76b9c669acdfabe12dd2b0f0483f158df70
 

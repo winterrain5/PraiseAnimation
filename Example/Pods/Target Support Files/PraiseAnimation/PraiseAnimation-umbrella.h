@@ -10,8 +10,6 @@
 #endif
 #endif
 
-#import "PraiseAnimation.h"
-#import "PraiseImage.h"
 
 FOUNDATION_EXPORT double PraiseAnimationVersionNumber;
 FOUNDATION_EXPORT const unsigned char PraiseAnimationVersionString[];

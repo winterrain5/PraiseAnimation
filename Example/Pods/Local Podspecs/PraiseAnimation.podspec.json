@@ -1,6 +1,6 @@
 {
   "name": "PraiseAnimation",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "Like animation",
   "description": "Like animation",
   "homepage": "https://github.com/winterrain5/PraiseAnimation",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/winterrain5/PraiseAnimation.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.0"

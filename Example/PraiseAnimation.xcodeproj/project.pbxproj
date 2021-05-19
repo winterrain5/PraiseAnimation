@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		053750B14BE03C033AC85FFE /* Pods-PraiseAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PraiseAnimation_Example.release.xcconfig"; path = "Target Support Files/Pods-PraiseAnimation_Example/Pods-PraiseAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		435B8CCC63A53254FD35031D /* Pods-PraiseAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PraiseAnimation_Example.debug.xcconfig"; path = "Target Support Files/Pods-PraiseAnimation_Example/Pods-PraiseAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5292BD9973D2F8538678E9CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5292BD9973D2F8538678E9CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PraiseAnimation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PraiseAnimation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BAB476ACCCE7FD3BCFC1950 /* Pods-PraiseAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PraiseAnimation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PraiseAnimation_Tests/Pods-PraiseAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		937B370103B05F9E17123084 /* PraiseAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PraiseAnimation.podspec; path = ../PraiseAnimation.podspec; sourceTree = "<group>"; };
+		937B370103B05F9E17123084 /* PraiseAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PraiseAnimation.podspec; path = ../PraiseAnimation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AF7E7EB8EE5BF8E7BAC7A79 /* Pods_PraiseAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PraiseAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A607D6ABE832F0A21AADA49F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A607D6ABE832F0A21AADA49F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EE5ED5E8225C217CBC7C44A5 /* Pods-PraiseAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PraiseAnimation_Tests.release.xcconfig"; path = "Target Support Files/Pods-PraiseAnimation_Tests/Pods-PraiseAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F8B497390E53C63DA75CE535 /* Pods_PraiseAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PraiseAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				8BAB476ACCCE7FD3BCFC1950 /* Pods-PraiseAnimation_Tests.debug.xcconfig */,
 				EE5ED5E8225C217CBC7C44A5 /* Pods-PraiseAnimation_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
